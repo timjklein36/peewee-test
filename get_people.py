@@ -6,7 +6,7 @@ def is_taller_than(dimensions, test_height):
     return dimensions.height > test_height
 
 
-min_height = 3.0
+min_height = 6.0
 
 tall_people = Person.select().join(Dimensions).where(
                 is_taller_than(Person.dimensions, min_height)
