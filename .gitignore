@@ -1,3 +1,11 @@
+# Custom
+# IDE
+*.iml
+.idea/
+Scripts/
+Lib/
+Include/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
